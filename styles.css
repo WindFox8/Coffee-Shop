@@ -258,6 +258,10 @@ body {
   text-shadow: 0px 0px 3px rgb(0, 0, 0);
 }
 
+.item {
+  cursor: pointer;
+}
+
 .btn {
   color: #9d814c;
   background-color: #e6cc9a;
@@ -267,6 +271,7 @@ body {
   font-size: 18px;
   outline: 5px solid #e6cc9a;
   border: 3px solid #9d814c;
+  cursor: pointer;
 }
 
 .btn > p {
@@ -307,8 +312,6 @@ body {
   padding: 25px;
   position: relative;
   overflow: hidden;
-}
-.newsletter-container-div1:hover {
   cursor: pointer;
 }
 .newsletter-container-div1-title {
@@ -326,6 +329,7 @@ body {
   background-color: #e6cc9a;
   text-align: center;
   overflow: hidden;
+  cursor: pointer;
 }
 .newsletter-container-div2-title {
   margin: 5px;
@@ -338,6 +342,7 @@ body {
   background-color: #d4b476;
   overflow: hidden;
   text-align: center;
+  cursor: pointer;
 }
 .newsletter-container-div3-title {
   margin: 5px;
@@ -400,7 +405,7 @@ body {
   background-color: #161718;
   text-align: center;
   color: #dfddd8;
-  font-size: 20px;
+  font-size: 16px;
   height: 25px;
 }
 .copyright-a {
