@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Gantari:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Gantari&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Parisienne&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -113,8 +114,9 @@ body {
 .main-article-highlight-container-name {
   text-align: center;
   color: #dfddd8;
-  font-size: 44px;
-  border-bottom: 6px double #e6cc9a;
+  font-size: 56px;
+  border-bottom: 8px double #d4b476;
+  font-family: "Parisienne", cursive;
 }
 .main-article-highlight-container-img {
   width: 110%;
@@ -288,6 +290,27 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 2rem;
+  position: relative;
+}
+.newsletter-backgroundIcon-1 {
+  position: absolute;
+  top: 10%;
+  left: 3%;
+  z-index: 0;
+}
+.newsletter-backgroundIcon-2 {
+  position: absolute;
+  top: 30%;
+  right: 7%;
+  z-index: 0;
+  transform: rotate(90deg);
+}
+.newsletter-backgroundIcon-3 {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  z-index: 0;
+  transform: rotate(90deg);
 }
 .newsletter-title {
   font-size: 44px;
@@ -297,6 +320,7 @@ body {
   font-size: 18px;
   color: rgba(223, 221, 216, 0.5);
   margin-top: -5px;
+  z-index: 1;
 }
 .newsletter-container {
   display: grid;
@@ -307,6 +331,7 @@ body {
   grid-template-areas: "div1 div2" "div1 div3";
   margin: 2rem;
   gap: 20px;
+  z-index: 1;
 }
 .newsletter-container-div1 {
   grid-area: div1;
